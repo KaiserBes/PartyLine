@@ -1,0 +1,13 @@
+.wrap {
+    display: flex;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar {
+    width: 300px;
+}

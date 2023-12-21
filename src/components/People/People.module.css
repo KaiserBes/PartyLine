@@ -1,0 +1,152 @@
+.main__wrap {
+  display: flex;
+}
+
+.header {
+  background-color: rgb(22, 22, 22);
+  padding: 0 40px;
+  height: 75px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header__wrap {
+  display: flex;
+  padding: 12px 14px;
+  margin: auto 0;
+}
+
+.search {
+  width: 70%;
+  margin-left: 30px;
+  color: white;
+  padding: 10px;
+  transition: border 0.3s ease; /* только изменения border будут иметь анимацию */
+  display: flex;
+  gap: 5px;
+  border: 1px solid transparent; /* начальная прозрачная граница */
+  margin-right: 10px;
+  border-radius: 10px;
+  box-sizing: border-box; /* учтем границы и отступы в размерах элемента */
+}
+
+.search:hover {
+  border-color: white; /* изменение цвета при ховере */
+}
+
+.search__icon {
+  width: 16px;
+}
+
+.search input {
+  width: 98%;
+  background-color: rgb(22, 22, 22);
+  border: none;
+  color: white;
+  transition: border 0.3s ease;
+  outline: none;
+}
+
+.header__filter {
+  width: 10%;
+  color: white;
+  display: flex;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.filter__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+  transition: 0.3s ease;
+  border-radius: 10px;
+}
+
+.filter__wrap:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.filterIcon svg {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 20%;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.output {
+  height: calc(100vh - 75px);
+  background-color: rgb(22, 22, 22);
+  color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.header__avatar {
+  color: white;
+  background: #f6f6f6;
+  z-index: 10;
+  width: 28px;
+  border-radius: 10px;
+}
+
+.name__profile {
+  color: #c1c1c1;
+  margin: 0 0px 0 -2px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+  border-radius: 10px;
+  font-size: 13px;
+  background-color: #000000;
+}
+
+.name__profile:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  gap: 30px;
+}
+
+
+
+.output__items {
+  padding: 30px;
+  background-color: rgb(167, 167, 167);
+  border-radius: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.output__items img {
+  border-radius: 20px;
+  width: 160px;
+}
+.output__items p {
+    display: flex;
+    justify-content: center;
+}
+.output__container {
+  width: 95%;
+  margin: 50px 100px 100px;
+}
+
+.sidebar {
+  width: 300px;
+}

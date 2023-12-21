@@ -1,0 +1,71 @@
+header {
+  backdrop-filter: blur(7px);
+  background-color: rgb(22, 22, 22);
+  position: fixed;
+  width: 100%;
+  height: 110px;
+  position: relative;
+  padding: 40px 0px;
+  z-index: 10;
+  border-block-end: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav ul {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  list-style: none;
+}
+
+.navlink {
+  font-size: 14px;
+  color: #848484;
+  padding: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  z-index: 20;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.header__avatar {
+  color: white;
+  background: #f6f6f6;
+  z-index: 10;
+  width: 28px;
+  border-radius: 10px;
+}
+
+.name__profile {
+  color: #c1c1c1;
+  margin: 0 0px 0 -2px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+  border-radius: 10px;
+  font-size: 13px;
+  background-color: #000000;
+}
+
+.name__profile p {
+  margin: 0 0 0 6px;
+}
+
+.navlink:hover,
+.navlink:focus {
+  color: white;
+  outline: none;
+}
+
+.name__profile:hover {
+  background-color: rgba(82, 82, 82, 0.72);
+}

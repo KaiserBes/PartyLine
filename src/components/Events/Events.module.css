@@ -1,0 +1,149 @@
+.main__wrap {
+  display: flex;
+}
+
+.title__wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.events {
+  background-color: rgb(22, 22, 22);
+  position: relative;
+  height: 100%;
+}
+
+.events h3 {
+  padding: 30px 0 15px 0;
+  color: #848484;
+  font-size: 16px;
+}
+
+.events__link {
+  width: 100%;
+  padding: 30px 0;
+  z-index: 120;
+}
+
+.events__link:hover {
+  background-color: transparent;
+  transition: all 1s ease 0s;
+}
+
+.events__wrapper {
+  cursor: pointer;
+  align-items: center;
+  padding: 0;
+  height: 90px;
+  gap: 25px;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease 0s;
+  padding: 0 0 0 15px;
+}
+
+.events__box {
+  color: #848484;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 3.7rem;
+  height: 3.7rem;
+  color: rgb(132, 132, 132);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 1.25rem;
+}
+
+.events__num {
+  font-size: 23px;
+}
+.events__box p {
+  font-size: 17px;
+}
+
+.events__content {
+}
+
+.events__content__first {
+  padding: 0 0 3px 0;
+  color: #fff;
+}
+
+.events__content__second {
+  color: #848484;
+}
+
+.events__wrapper:hover {
+  background-color: #5d5d5d;
+}
+.events {
+  background-color: rgb(22, 22, 22);
+  position: relative;
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+}
+
+.events h3 {
+  padding: 30px 0 15px 0;
+  color: #848484;
+  font-size: 16px;
+}
+
+.events__link {
+  width: 100%;
+  padding: 30px 0;
+  z-index: 120;
+}
+
+.events__link:hover {
+  background-color: transparent;
+  transition: all 1s ease 0s;
+}
+
+.events__wrapper {
+  align-items: center;
+  padding: 0;
+  height: 90px;
+  gap: 25px;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.events__box {
+  color: #848484;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 3.7rem;
+  height: 3.7rem;
+  color: rgb(132, 132, 132);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 1.25rem;
+}
+
+.events__num {
+  font-size: 23px;
+}
+.events__box p {
+  font-size: 17px;
+}
+
+.events__content {
+}
+
+.events__content__first {
+  padding: 0 0 3px 0;
+  color: #fff;
+}
+
+.events__content__second {
+  color: #848484;
+}
+
+.events__content :hover {
+  background-color: #fff;
+  transition: all 4s ease 0s;
+}
