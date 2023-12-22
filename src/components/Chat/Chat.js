@@ -1,16 +1,431 @@
 import React from "react";
-import ChatSIdebar from '../ChatSidebar/ChatSidebar'
-import style from './Chat.module.css'
-
+import ChatSIdebar from "../ChatSidebar/ChatSidebar";
+import style from "./Chat.module.css";
+import { Link } from "react-router-dom";
 
 const Chat = () => {
-  return <div className={style.main__wrap}>
-    <ChatSIdebar/>
-    <div className={style.content__wrap}>
-      <div className={style.chat}><h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae qui ea earum error! Exercitationem, temporibus assumenda? Adipisci voluptates veniam magni sint vitae, blanditiis debitis fugiat obcaecati itaque est accusamus perferendis dolores eligendi saepe quasi quaerat sed dignissimos odit deserunt mollitia dolorum! Corporis quae porro deleniti minima accusamus at sunt placeat quas delectus quibusdam magnam libero necessitatibus eum eaque iste rerum deserunt similique nam explicabo, dolorum nisi voluptate laborum illum voluptatibus. Cum numquam nemo omnis eligendi dolor, quo iste illum! Eum, cupiditate est molestiae excepturi aliquid nulla fugiat, placeat quod assumenda, quaerat vel odio nobis tempore eius eaque architecto repudiandae quasi earum blanditiis nihil? Accusantium iusto sit itaque et doloribus? Alias eius, quis minima numquam dolor earum aut repellat. Distinctio recusandae sapiente magni voluptates quam tempore, ab facere excepturi at quo veritatis porro culpa consequatur dolorem, numquam cupiditate voluptatum. Fugiat, labore nostrum! Corrupti facere ad unde. Natus itaque, possimus perspiciatis non exercitationem rerum corporis ratione voluptatum tempore, necessitatibus, earum labore impedit neque. Quam dignissimos sequi omnis incidunt, doloribus, cupiditate sint tempore quae quisquam illo inventore dolore animi assumenda necessitatibus commodi error? Temporibus adipisci minima minus architecto cum, laudantium eum dolore cumque, placeat tempore veniam, vitae praesentium necessitatibus voluptate aspernatur soluta aut qui deserunt? Ex, quas est alias officiis ab quod provident nihil fugiat expedita recusandae repellat voluptate! Illo sapiente neque dolor autem obcaecati cum sequi molestias nostrum recusandae minus eaque voluptatem debitis temporibus veritatis sint doloribus unde ratione, quas quaerat laboriosam mollitia pariatur? Ea odio repellat quas in harum rerum pariatur minus error ad unde fuga, necessitatibus ratione veniam iste officiis excepturi nisi optio maiores. Aliquid, impedit. Repellendus quas excepturi, illum eaque aliquam officiis cum, minus quibusdam quos sint nisi dolorum in cupiditate tempore fugit! Eveniet similique sed iure natus dolorem provident minima minus debitis tempora laboriosam laudantium assumenda corrupti quisquam ipsum libero unde, reiciendis asperiores perferendis repudiandae, omnis ex dolorum fugit. Harum, esse quaerat. Fugiat consequuntur illo animi et cumque beatae quos sequi iusto, repellat dolorum nam, molestiae omnis aliquam corporis, recusandae laboriosam tenetur error voluptatum temporibus ipsam natus officia repudiandae dolor? Ipsum, aliquid eum corrupti autem adipisci voluptates doloribus nesciunt porro optio, provident possimus fuga aperiam accusantium. Odit, ad nihil, labore unde porro beatae molestias commodi, harum distinctio deserunt quis obcaecati ducimus esse quidem? Ab provident odio amet quidem recusandae? Voluptatibus ratione eaque aut. Similique ut culpa, doloribus, quo nisi sapiente reiciendis rem minus unde iste doloremque explicabo facere consequatur eum qui pariatur in reprehenderit architecto veritatis quia ex. Magnam eligendi incidunt beatae, eveniet nihil libero qui. Perspiciatis amet optio ullam assumenda error accusamus aspernatur iusto possimus excepturi nulla dolorem, quidem minima quaerat architecto, saepe quisquam, eos ratione maiores ea odio. Est odit dolore at reprehenderit vero repellendus qui ex hic ab nobis laudantium facilis nulla aut et reiciendis dicta maiores nam sapiente aliquid rerum, earum itaque? Nam quidem officiis saepe similique inventore illo, harum voluptatem, voluptas cupiditate voluptatum sequi vero ullam aliquam quis. Voluptatibus culpa, asperiores fuga, nobis dolorum atque sequi aperiam, aut exercitationem blanditiis iste? Magni ipsum voluptatem reiciendis doloribus similique illo voluptatibus nisi dignissimos, rem at cum odit quisquam fugiat quas beatae placeat dolorum inventore! Tempora sint, quasi ipsa obcaecati molestias culpa magni nihil praesentium aspernatur rem consequuntur sit est explicabo nobis accusamus. Deleniti voluptatibus cumque, exercitationem quam, quasi nihil culpa suscipit non a facere, velit dolor. Unde vitae corrupti alias similique saepe aspernatur magnam distinctio reprehenderit, dolorem esse repudiandae exercitationem in eveniet sed modi cumque ab sequi facere asperiores ut? Deserunt nisi ex velit! Itaque dolores quisquam corrupti totam quia, ducimus laudantium. At veritatis adipisci tenetur voluptas autem cum, modi eligendi repellat. In, iusto. Dicta explicabo porro error doloremque quo, excepturi eveniet illum officiis eaque quam quidem ut enim dignissimos? Exercitationem libero corporis nihil, eos veniam placeat magnam sit accusamus error quas animi maxime facilis, dignissimos delectus nulla quos, architecto cupiditate laborum in laboriosam nesciunt voluptatum! Aperiam repudiandae, debitis commodi incidunt ab explicabo, a possimus vel et blanditiis sapiente ad, ullam placeat? Excepturi voluptates repellat pariatur hic rerum vitae eius, eos officia! Ex molestiae consequuntur porro nihil sapiente itaque corrupti, eaque optio aperiam consequatur quod debitis ut? Cumque hic odio dolore, officiis quod in repellendus expedita omnis quae, perspiciatis reprehenderit odit dignissimos ea mollitia ad illo? Tempora iste nisi autem corporis asperiores adipisci veritatis, optio non eum reiciendis dolor harum ad excepturi obcaecati ex architecto pariatur dolore error inventore. Quaerat porro magni accusantium reiciendis aliquid totam nisi ut laboriosam voluptatum numquam. Hic in aliquam deleniti unde. Eligendi mollitia nam dolores soluta fuga corrupti a tempore odit, nostrum dolorum optio minima sequi culpa quia, quasi necessitatibus cum eum ratione. Voluptates fugiat repellat, quas id sed itaque illo ducimus! Architecto deleniti corrupti velit sunt beatae. Autem ut nulla dolores odio aperiam corporis tempore minus culpa natus deleniti voluptate ab ipsa eligendi sint ratione facere, omnis provident? Velit illo maiores asperiores unde saepe minima corporis, laborum explicabo labore dolorem aspernatur nam nisi aperiam! Mollitia quam porro officia harum ut commodi animi quo nemo tenetur repellat illo quos, sed soluta perspiciatis ad omnis excepturi esse officiis. Eius architecto veritatis, fuga at cupiditate porro ullam excepturi impedit atque sequi vitae recusandae amet dolorem. Quaerat itaque nostrum quos tenetur, ex delectus suscipit quasi et numquam autem vero nemo sapiente nihil laudantium, iste molestiae laboriosam beatae totam perferendis aperiam, voluptatem modi! Distinctio nulla culpa ullam reprehenderit error in fugiat animi saepe hic ipsam numquam similique, praesentium fuga deserunt rerum laborum illum non voluptate, eius suscipit laudantium magnam voluptas? Animi nulla eius omnis eos distinctio aliquid beatae natus laudantium incidunt at. Quae in culpa sapiente nemo, magni eveniet reprehenderit dolores ipsa harum asperiores alias numquam, molestiae doloribus rerum. Earum fugit molestiae quos numquam, fuga officiis voluptatem animi cum deserunt facere placeat labore? Beatae error dicta assumenda dolores! Mollitia deserunt velit animi quis cupiditate iusto eum placeat libero nisi, soluta delectus non quasi vitae suscipit beatae vero dicta? Optio dolore quidem possimus incidunt porro accusantium tempore voluptatem in? Provident saepe eius non, dolor quo dolorum, tempora quibusdam sint recusandae quae porro veritatis officia.</h2></div>
-      <div className={style.general}><h2>general Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor omnis ipsam excepturi soluta culpa repellat aperiam necessitatibus consequatur amet voluptatibus ex eveniet earum nulla eum voluptas provident ad accusamus illum enim accusantium nisi qui, asperiores quae. Exercitationem veritatis, earum esse tempore saepe ratione aut? Maxime ratione consequuntur molestias a cum recusandae officia accusantium delectus autem quas omnis dolor voluptate modi laudantium fugiat quam ad deserunt harum minima eos nesciunt hic, obcaecati, magni impedit. Aperiam dolorem optio ipsa, assumenda natus atque voluptas blanditiis explicabo similique molestiae odit dicta architecto repudiandae minus sapiente quibusdam nisi quae amet officiis, alias nesciunt distinctio. Neque, modi perferendis ex odio reprehenderit sequi expedita exercitationem quia quibusdam delectus doloremque quasi aut sapiente inventore quos et nesciunt rem blanditiis, corrupti officia iure, quas perspiciatis. Qui magnam doloremque, corporis vel itaque distinctio sed dolorem dolorum totam beatae eos dignissimos ducimus asperiores odit illo placeat cumque voluptates obcaecati ab minus magni aspernatur. Asperiores ipsa non quia molestias libero ex qui, at laudantium consequatur accusamus mollitia assumenda eveniet, tempora repellat sint doloremque, incidunt distinctio cupiditate praesentium eaque nobis reiciendis voluptatum nihil. Quaerat, vel error esse ad amet sequi possimus quas eaque, tenetur explicabo in excepturi? Nisi, laboriosam? Aperiam natus aliquam repellendus optio fugit iusto, voluptatem quo cupiditate nulla tempora, quaerat molestias? Ipsum exercitationem veritatis harum sed ad enim molestiae rerum voluptatem blanditiis assumenda soluta unde quos obcaecati nostrum ipsam quidem iure inventore, ipsa, ratione odio ea error commodi iusto consectetur! Doloremque aut itaque rerum unde quia deserunt dignissimos quod, tempore facere, doloribus officiis quasi. Veritatis laborum placeat ab, vero nam ipsam fugit odit consequuntur impedit tenetur quos voluptates et illo dolorem repudiandae. Nisi repellendus nulla molestiae delectus consequatur quasi officiis similique. Quisquam laboriosam ipsum quibusdam asperiores voluptate? Dolores veritatis nostrum quae ratione eum necessitatibus, nihil corporis voluptate, dolor iste aspernatur aut eius quo veniam vel maiores minus aliquid modi non odio itaque! Modi cumque rem excepturi nobis at ducimus aliquam sint unde repellat necessitatibus distinctio corrupti illo aspernatur fuga impedit, porro cum omnis dolorem voluptas eaque fugiat suscipit magni quasi consequuntur. Laudantium ipsa officiis, modi nemo dicta veniam quod cumque rerum vitae temporibus earum iste hic nesciunt ratione! Autem cumque harum nihil ipsum esse odit perspiciatis earum quasi, quidem ipsam dolorem fuga! Sequi ratione magni iusto deleniti praesentium, asperiores temporibus, sit qui quas commodi repellendus eius mollitia consequuntur ipsa ullam ipsam in? Quam qui vel quia officiis neque? Aliquam eum ullam assumenda! Omnis, possimus? Provident expedita libero, nihil architecto cumque error? Quo ipsa saepe obcaecati nobis ducimus animi numquam reiciendis harum voluptatum, sit accusantium, maxime fugiat rerum ad, modi sequi corporis doloribus suscipit optio qui porro nesciunt error. Impedit fugiat necessitatibus laudantium corporis animi ducimus temporibus obcaecati. Ratione sunt, consequatur odio sequi repellat perspiciatis praesentium non, id, quibusdam soluta reprehenderit pariatur at quam dicta dolores! Exercitationem, debitis. Repellat voluptate nulla temporibus, magni in debitis, adipisci molestiae hic totam, quos quisquam optio quas quam voluptas incidunt facilis nisi voluptatem aliquid. Aliquam maxime labore soluta tenetur illo perferendis, harum suscipit perspiciatis veritatis delectus ab. Blanditiis est ab enim vitae tempore animi deserunt non, doloremque, harum asperiores quibusdam nam fuga ducimus nemo tempora vel dolorem nisi. Hic temporibus impedit obcaecati velit, facere aliquam fugiat sapiente incidunt, assumenda natus consequuntur beatae nostrum aperiam odio iste quod. Harum, aut! Maxime, nesciunt tenetur nostrum aperiam eaque sequi doloremque illum deserunt ex maiores autem vel? Eum, dolorem magnam autem quibusdam distinctio consectetur repellat cum ad, laborum deserunt vero corporis maiores dignissimos. Placeat, mollitia cum illum adipisci quos iste optio unde fuga voluptatem! Vel officia ratione aspernatur error, fuga quia debitis, quibusdam iste omnis reiciendis ut cupiditate dolores alias voluptate ducimus itaque blanditiis, possimus quisquam autem! Ex animi nisi neque facilis suscipit, error inventore excepturi corporis provident repudiandae sequi deserunt adipisci asperiores quam dignissimos dolore architecto eius possimus non nulla? Dolor perferendis corrupti quas inventore doloribus assumenda modi incidunt blanditiis alias quis maxime distinctio nobis tempora sit quibusdam molestiae, dolorem molestias reiciendis? Voluptas odit beatae quaerat dolor sapiente eveniet eaque in vitae asperiores quibusdam ipsum magnam molestias, porro optio recusandae natus dolore assumenda, perspiciatis eligendi! Earum vitae corrupti, ut dolorem necessitatibus reiciendis ad nam possimus ullam magnam aut saepe at vel assumenda debitis! Cumque itaque eos ipsa, doloribus corrupti fugit amet qui nobis voluptate odio ullam eaque asperiores ad voluptates maxime nam. Fuga velit quaerat sit exercitationem eos voluptatem facilis. Magni commodi tenetur impedit nostrum iure blanditiis ea quia quibusdam, distinctio fugit provident nihil autem eaque sit cumque possimus, odit velit voluptatem. Quisquam id porro in quod quaerat ut assumenda consectetur magni nulla dolore corporis rem omnis sit neque iusto ducimus vitae at, ex sint dicta aliquid deleniti rerum, quam hic! Est expedita nostrum, nesciunt ducimus debitis incidunt vitae eius natus soluta quia ab. Dolores necessitatibus officiis optio nesciunt dicta molestias numquam similique! Corporis minus ipsum unde illo, iusto praesentium quia velit! Modi, provident obcaecati enim quod reiciendis tempora eius nemo voluptates atque rerum doloremque, culpa animi quo similique voluptatum ipsum totam quia ex? Quae aspernatur rem, maiores iusto assumenda deserunt placeat unde itaque, delectus eum repellendus harum officiis quas voluptatibus accusantium porro ad perspiciatis velit corporis rerum enim! Dolor corrupti amet, repellat, enim eius nostrum dolores voluptas id totam soluta impedit rem obcaecati recusandae ipsa perspiciatis consequatur quis quas neque cum tenetur non voluptatibus molestias quidem eligendi. Et, libero vitae! Voluptas eligendi deserunt rerum ratione beatae repellat suscipit quod, nemo ullam ipsam molestias iusto vel expedita dignissimos sit? Illo voluptas hic delectus dolorem nisi magni, ab recusandae quae inventore id nemo corporis eius odio quaerat libero laborum reprehenderit ipsa asperiores ipsum voluptates? Necessitatibus incidunt, autem nobis error quidem officia dolorem iure reiciendis perferendis. Eos pariatur dicta aperiam fuga qui repellendus deleniti ullam quas, animi, sunt tenetur esse delectus quia aliquam repudiandae minus dignissimos quae facere ratione doloremque. At velit amet ut pariatur! Numquam nemo nisi minus facilis. Quaerat officia amet possimus tempore animi asperiores illo perferendis aperiam. Itaque omnis tenetur adipisci quia neque vel harum placeat cum? Quo quae natus ad id doloremque possimus perspiciatis ut repellat labore?</h2></div>
+  return (
+    <div className={style.main__wrap}>
+      <ChatSIdebar />
+      <div className={style.content__wrap}>
+        <div className={style.chat__wrap}>
+          <div className={style.chat__wrapHeader}>
+            <p>Chat</p>
+          </div>
+          <Link className={style.link} to="/updates">
+            <p>@ Updates</p>
+          </Link>
+          <div className={style.community}>Community</div>
+          <Link className={style.link} to="/general">
+            <p>🏠</p>
+            <p>general</p>
+          </Link>
+          <Link className={style.link} to="/announcements">
+            <p>😘</p>
+            <p>announcements</p>
+          </Link>
+          <Link className={style.link} to="/letsvote">
+            <p>🗳️</p>
+            <p>let's vote</p>
+          </Link>
+          <div className={style.chat__wrapFooter}>
+            <p>Private</p>
+          </div>
+        </div>
+        <div className={style.general}>
+          <div className={style.header}>
+            <div className={style.header__p}>
+              <p>#general</p>
+            </div>
+            <div className={style.header__peopleCount}>
+              <div className={style.peopleCount__wrap}>
+                <img
+                  alt="avatar"
+                  src="https://api.dicebear.com/5.x/lorelei/svg?seed=alightBlue100&amp;backgroundColor=3399FF&amp;mouth=happy01,happy02,happy03,happy04,happy05,happy12,happy17,sad02"
+                  draggable="false"
+                  class="sc-hmdomO etWITa"
+                />
+                <img
+                  alt="avatar"
+                  src="https://api.dicebear.com/5.x/lorelei/svg?seed=alightTeal100&amp;backgroundColor=0CD7F2&amp;mouth=happy01,happy02,happy03,happy04,happy05,happy12,happy17,sad02"
+                  draggable="false"
+                  class="sc-hmdomO etWITa"
+                ></img>
+                <img
+                  alt="avatar"
+                  src="https://api.dicebear.com/5.x/lorelei/svg?seed=aalightOrange100&amp;backgroundColor=FF9C40&amp;mouth=happy01,happy02,happy03,happy04,happy05,happy12,happy17,sad02"
+                  draggable="false"
+                  class="sc-hmdomO etWITa"
+                />
+                <p>3156</p>
+              </div>
+            </div>
+            <div className={style.avatar}>
+              <img
+                src="https://api.dicebear.com/5.x/lorelei/svg?seed=InfiniteWayfarer592lightBlue100&amp;backgroundColor=3399FF&amp;mouth=happy01,happy02,happy03,happy04,happy05,happy12,happy17,sad02"
+                alt="avatar"
+                draggable="false"
+                className={style.header__avatar}
+              />
+              <p className={style.name__profile}>someoneprofile</p>
+            </div>
+          </div>
+          <div className={style.chat__area}>
+            <div className={style.chat__area__container}>
+              <div className={style.row}>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                {/* Отобразите отфильтрованные данные */}
+                {/* <ul>
+                {filteredPeople.map((person) => (
+                  <li key={person.id}>{person.name}</li>
+                ))}
+              </ul> */}
+              </div>
+              <br />
+              <div className={style.row}>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                <div className={style.output__items}>
+                  <img
+                    alt="avatar"
+                    src="https://images.console.xyz/cdn-cgi/image/width=160,height=160,fit=crop,quality=75,dpr=1/https://images.gamma.io/ipfs/Qmdv4Eeb8JZuG1HN77XkRvSmQeHDzrqeqyhPtGyfVMugSr/images/773.gif"
+                    draggable="false"
+                    class="sc-koXPp caCvie"
+                  />
+                  <p>BMO with BANANA</p>
+                </div>
+                {/* Отобразите отфильтрованные данные */}
+                {/* <ul>
+                {filteredPeople.map((person) => (
+                  <li key={person.id}>{person.name}</li>
+                ))}
+              </ul> */}
+              </div>
+            </div>
+          </div>
+          <div className={style.comments__making}>
+            <div className={style.comments__wrap}>
+              <div className={style.comments__input}>
+                <input className={style.comments__inputArea} type="text" />
+              </div>
+              <div className={style.comments__buttonWrap}>
+                <div className={style.button__box1}>
+                  <button className={style.comments__button1}>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-label="image"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 3.25C7.16751 3.25 3.25 7.16751 3.25 12C3.25 16.8325 7.16751 20.75 12 20.75C16.8325 20.75 20.75 16.8325 20.75 12C20.75 7.16751 16.8325 3.25 12 3.25ZM12.7499 7.75732C12.7499 7.34311 12.4142 7.00732 11.9999 7.00732C11.5857 7.00732 11.2499 7.34311 11.2499 7.75732V11.25H7.75732C7.34311 11.25 7.00732 11.5858 7.00732 12C7.00732 12.4142 7.34311 12.75 7.75732 12.75H11.2499V16.2426C11.2499 16.6568 11.5857 16.9926 11.9999 16.9926C12.4142 16.9926 12.7499 16.6568 12.7499 16.2426V12.75H16.2426C16.6568 12.75 16.9926 12.4142 16.9926 12C16.9926 11.5858 16.6568 11.25 16.2426 11.25H12.7499V7.75732Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    <input
+                      type="file"
+                      accept="image/jpg,image/jpeg,image/gif,image/png"
+                      class="sc-jBqsNv lhDjSq"
+                    ></input>
+                  </button>
+                  <button className={style.comments__button1}>
+                    <svg
+                      viewBox="0 0 17 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-label="codeblock"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M5.37782 2.51263C7.43619 2.28257 9.56379 2.28257 11.6222 2.51263C12.8397 2.64871 13.823 3.60781 13.9662 4.83245C14.2124 6.93706 14.2124 9.06319 13.9662 11.1678C13.823 12.3924 12.8397 13.3515 11.6222 13.4876C9.56379 13.7177 7.43619 13.7177 5.37782 13.4876C4.16023 13.3515 3.17697 12.3924 3.03374 11.1678C2.78758 9.06319 2.78758 6.93706 3.03374 4.83245C3.17697 3.60781 4.16024 2.64871 5.37782 2.51263ZM7.62007 5.69515C7.81534 5.89041 7.81534 6.207 7.62007 6.40226L5.97363 8.04871L7.62007 9.69515C7.81534 9.89042 7.81534 10.207 7.62007 10.4023C7.42481 10.5975 7.10823 10.5975 6.91297 10.4023L4.91297 8.40226C4.7177 8.207 4.7177 7.89041 4.91297 7.69515L6.91297 5.69515C7.10823 5.49989 7.42481 5.49989 7.62007 5.69515ZM9.22482 5.69515C9.42008 5.49989 9.73666 5.49989 9.93192 5.69515L11.9319 7.69515C12.1272 7.89042 12.1272 8.207 11.9319 8.40226L9.93192 10.4023C9.73666 10.5975 9.42008 10.5975 9.22482 10.4023C9.02955 10.207 9.02955 9.89041 9.22482 9.69515L10.8713 8.04871L9.22482 6.40226C9.02955 6.207 9.02955 5.89041 9.22482 5.69515Z"
+                        fill="currentColor"
+                        fill-opacity="0.96"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button className={style.comments__button1}>
+                    <svg
+                      viewBox="0 0 17 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-label="emojis"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M2.1001 7.99985C2.1001 4.47155 4.97179 1.59985 8.5001 1.59985C12.0284 1.59985 14.9001 4.47155 14.9001 7.99985C14.9001 11.5282 12.0284 14.3999 8.5001 14.3999C4.97179 14.3999 2.1001 11.5282 2.1001 7.99985ZM5.53444 7.1675C5.68447 7.01747 5.88796 6.93319 6.10013 6.93319C6.3123 6.93319 6.51579 7.01747 6.66582 7.1675C6.81585 7.31753 6.90013 7.52101 6.90013 7.73319C6.90013 7.94536 6.81585 8.14884 6.66582 8.29887C6.51579 8.4489 6.3123 8.53319 6.10013 8.53319C5.88796 8.53319 5.68447 8.4489 5.53444 8.29887C5.38442 8.14884 5.30013 7.94536 5.30013 7.73319C5.30013 7.52101 5.38442 7.31753 5.53444 7.1675ZM10.3344 7.1675C10.4845 7.01747 10.688 6.93319 10.9001 6.93319C11.1123 6.93319 11.3158 7.01747 11.4658 7.1675C11.6158 7.31753 11.7001 7.52101 11.7001 7.73319C11.7001 7.94536 11.6158 8.14884 11.4658 8.29887C11.3158 8.4489 11.1123 8.53319 10.9001 8.53319C10.688 8.53319 10.4845 8.4489 10.3344 8.29887C10.1844 8.14884 10.1001 7.94536 10.1001 7.73319C10.1001 7.52101 10.1844 7.31753 10.3344 7.1675ZM6.89701 10.129C6.78641 10.1352 6.68048 10.1757 6.59394 10.2449C6.5074 10.314 6.44453 10.4084 6.41407 10.5149C6.38361 10.6214 6.38706 10.7347 6.42395 10.8392C6.46084 10.9436 6.52933 11.034 6.61992 11.0978C7.04889 11.4095 7.69124 11.7332 8.50013 11.7332C9.30902 11.7332 9.95162 11.4098 10.3803 11.0978C10.437 11.0565 10.485 11.0045 10.5215 10.9448C10.5581 10.885 10.5825 10.8186 10.5934 10.7494C10.6043 10.6801 10.6015 10.6095 10.585 10.5413C10.5686 10.4732 10.5389 10.409 10.4977 10.3524C10.4564 10.2957 10.4044 10.2478 10.3446 10.2112C10.2848 10.1747 10.2184 10.1503 10.1492 10.1394C10.08 10.1285 10.0093 10.1314 9.94116 10.1478C9.87305 10.1643 9.80884 10.194 9.75221 10.2353C9.44813 10.4566 9.02457 10.6665 8.50013 10.6665C7.97569 10.6665 7.55191 10.4569 7.24701 10.2353C7.16102 10.1707 7.05754 10.1337 6.95013 10.129C6.93243 10.1281 6.9147 10.1281 6.89701 10.129Z"
+                        fill="currentColor"
+                        fill-opacity="0.96"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button className={style.comments__button1}>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-label="emojis"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.0113 2.89055C13.6756 2.62958 10.3247 2.62958 6.98901 2.89055L4.7483 3.06585C3.50023 3.16349 2.47921 4.09889 2.2729 5.33366C1.75669 8.42316 1.75669 15.5769 2.2729 18.6664C2.47921 19.9012 3.50023 20.8366 4.7483 20.9342L6.989 21.1095C10.3247 21.3705 13.6756 21.3705 17.0113 21.1095L19.252 20.9342C20.5001 20.8366 21.5211 19.9012 21.7274 18.6664C22.2436 15.5769 22.2436 8.42316 21.7274 5.33366C21.5211 4.09889 20.5001 3.16349 19.252 3.06585L17.0113 2.89055ZM10.5078 11.075C10.3318 9.823 9.28494 9 7.86094 9C6.10734 9 5 10.2193 5 12.1609C5 14.1313 6.09866 15.3344 7.88906 15.3344C9.53386 15.3344 10.5609 14.3315 10.5609 12.7203V11.9516H8.03125V12.9H9.3375L9.33437 13.0078C9.30957 13.7342 8.73734 14.2234 7.91094 14.2234C6.91734 14.2234 6.29062 13.4388 6.29062 12.1484C6.29062 10.8836 6.88814 10.1109 7.86094 10.1109C8.56174 10.1109 9.06749 10.4654 9.25469 11.075H10.5078ZM13.0359 9.15469H11.775V15.1797H13.0359V9.15469ZM14.5 9.15469H18.3516V10.2328H15.7609V11.8016H18.2109V12.8328H15.7609V15.1797H14.5V9.15469Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button className={style.comments__button1}>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-label="Add youtube video"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.98888 4.89055C10.3246 4.62958 13.6755 4.62958 17.0112 4.89055L19.2519 5.06585C20.5 5.16349 21.521 6.09889 21.7273 7.33366C22.2435 10.4232 22.2435 13.5769 21.7273 16.6664C21.521 17.9012 20.5 18.8366 19.2519 18.9342L17.0112 19.1095C13.6755 19.3705 10.3246 19.3705 6.98888 19.1095L4.74818 18.9342C3.50011 18.8366 2.47909 17.9012 2.27278 16.6664C1.75657 13.5769 1.75657 10.4232 2.27278 7.33366C2.47909 6.09889 3.50011 5.16349 4.74818 5.06585L6.98888 4.89055ZM10 14.4702V9.52989C10 9.2967 10.2544 9.15267 10.4543 9.27264L14.5713 11.7428C14.7655 11.8593 14.7655 12.1408 14.5713 12.2573L10.4543 14.7274C10.2544 14.8474 10 14.7034 10 14.4702Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div className={style.button__box2}>
+                  <button className={style.comments__button2}>
+                    <svg
+                      viewBox="0 0 17 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-label="Send"
+                      class="sc-iVDsrp dyKbHW"
+                    >
+                      <path
+                        d="M14.662 8.29147C14.7679 8.23268 14.8335 8.12114 14.8335 8.00008C14.8335 7.87903 14.7679 7.76749 14.662 7.7087L13.1405 6.86339C10.1428 5.19801 6.98277 3.84334 3.70964 2.82048L3.26625 2.68192C3.16504 2.6503 3.05482 2.66871 2.96938 2.73152C2.88395 2.79433 2.8335 2.89404 2.8335 3.00008V6.83342C2.8335 7.0107 2.97227 7.15697 3.14931 7.16629L3.8224 7.20171C5.46348 7.28809 7.09454 7.51067 8.69875 7.86716L8.85762 7.90247C8.89296 7.91032 8.90828 7.92477 8.9168 7.93624C8.92754 7.95072 8.93593 7.97301 8.93593 8.00008C8.93593 8.02716 8.92754 8.04945 8.9168 8.06392C8.90828 8.0754 8.89296 8.08985 8.85762 8.0977L8.69877 8.133C7.09454 8.4895 5.46347 8.71208 3.82239 8.79845L3.14931 8.83388C2.97227 8.84319 2.8335 8.98946 2.8335 9.16675V13.0001C2.8335 13.1061 2.88395 13.2058 2.96938 13.2686C3.05482 13.3315 3.16504 13.3499 3.26625 13.3182L3.70965 13.1797C6.98277 12.1568 10.1428 10.8022 13.1405 9.13678L14.662 8.29147Z"
+                        fill="currentColor"
+                        fill-opacity="0.96"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={style.chat__footer}></div>
+        </div>
+      </div>
     </div>
-  </div>;
+  );
 };
 
 export default Chat;

@@ -2,13 +2,10 @@
   display: flex;
   width: 100%;
   height: 100%;
-  position: relative;
 }
 
 .content__wrap {
-  height: 100%;
   background-color: rgb(20, 20, 20);
-  height: 100%;
 }
 
 .chat {
@@ -89,20 +86,225 @@
   font-size: 12px;
 }
 
-.messages__grayline {
-  position: absolute;
-  user-select: none;
-  width: 10px;
+/* ! */
+
+.conversation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+}
+
+.message__grayline {
   height: 100%;
-  top: 0px;
-  cursor: col-resize;
-  right: -5px;
-  background-color: rgb(176, 122, 122);
+  background-color: #4e4c4c;
+  width: 1px;
+}
+
+.messages__grayline :hover {
+  background-color: #9400d3;
+  width: 2px;
 }
 
 /* ! */
 
-.conversation {
+.header__container {
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.message__header__text {
+  width: 80%;
+  color: white;
+  font-size: 14px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  z-index: 20;
   width: 100%;
-  background-color: rgb(20, 20, 20);
+  justify-content: flex-end;
+}
+
+.header__avatar {
+  color: white;
+  background: #f6f6f6;
+  z-index: 10;
+  width: 28px;
+  border-radius: 10px;
+}
+
+.name__profile {
+  color: #c1c1c1;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+  border-radius: 10px;
+  font-size: 13px;
+  background-color: #000000;
+}
+
+.name__profile p {
+  margin: 0 0 0 6px;
+}
+
+.navlink:hover,
+.navlink:focus {
+  color: white;
+  outline: none;
+}
+
+.name__profile:hover {
+  background-color: rgba(82, 82, 82, 0.72);
+}
+
+.new__conversation__container {
+}
+
+.conv__wrapper {
+  /* height: 100%; */
+  margin: auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conv__box__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.conv__box__content p {
+  color: #858585;
+}
+
+.conv__photo {
+  color: #cecece;
+  width: 100px;
+}
+.comments__making {
+  height: 124px;
+  background-color: rgb(22, 22, 22);
+}
+
+.comments__wrap {
+  width: 90%;
+  background-color: rgb(47, 47, 47);
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.comments__input {
+  border-bottom: 1px solid gray;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.comments__inputArea {
+  width: 90%;
+  height: 100%;
+  background-color: rgb(47, 47, 47);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.comments__inputArea input {
+  height: 100%;
+}
+
+/* //////////////////////////////////// */
+
+.comments__buttonWrap {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.button__box1 {
+  display: flex;
+  gap: 10px;
+}
+
+.comments__button1 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  transition: all 0.3s ease-out 0s;
+  background-color: rgb(47, 47, 47);
+  width: 50px;
+  height: 50px;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+.comments__button1:hover {
+  background-color: purple;
+}
+
+.comments__button1 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.comments__button1 path {
+  color: rgb(255, 255, 255);
+}
+
+.comments__button1 input {
+  position: absolute;
+  width: 1.875rem;
+  height: 1.75rem;
+  font-size: 0px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.comments__button2 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  transition: all 0.3s ease-out 0s;
+  background-color: rgb(47, 47, 47);
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(113, 102, 255);
+}
+
+.comments__button2 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.direct__footer {
+  margin: 0px 0 -100px 0;
 }
