@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import s from "./Main.module.css";
+import { useNavigate } from "react-router-dom";
+import Loader from "../Loader/Loader";
 
 const Main = () => {
   return (

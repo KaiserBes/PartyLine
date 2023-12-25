@@ -43,6 +43,10 @@
   padding: 0 0 0 15px;
 }
 
+.events__date {
+  padding: 0 0 0 15px;
+}
+
 .events__box {
   color: #848484;
   display: flex;

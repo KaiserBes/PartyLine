@@ -8,7 +8,7 @@ const Events = () => {
   return (
     <div className={s.main__wrap}>
       <div className={s.sidebar}>
-        <Sidebar/>
+        <Sidebar />
       </div>
       <div className={s.title__wrap}>
         <Header />
@@ -75,7 +75,6 @@ const Events = () => {
             </div>
           </div>
         </section>
-
       </div>
     </div>
   );

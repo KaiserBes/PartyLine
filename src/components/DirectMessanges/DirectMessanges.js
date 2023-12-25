@@ -1,7 +1,6 @@
 import React from "react";
 import ChatSidebar from "../ChatSidebar/ChatSidebar";
 import style from "./DirectMessanges.module.css";
-import photo from "../DirectMessagesPhoto/free-icon-font-heart-3916580.svg";
 
 const DirectMessages = () => {
   return (
