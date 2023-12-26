@@ -209,3 +209,23 @@
 .emoji__choose svg {
   width: 25px;
 }
+
+.people__commentInfo {
+  font-size: 13px;
+}
+
+.people__commentName {
+  font-size: 13px;
+}
+
+.people__commentData {
+  font-size: 12px;
+}
+
+.reaction {
+  font-size: 14px;
+}
+
+.emoji__choose svg {
+  width: 18px;
+}

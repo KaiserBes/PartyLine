@@ -390,6 +390,7 @@
 .people__commentInfo {
   color: rgb(202, 202, 202);
   margin: 10px 0;
+  font-size: 14px;
 }
 
 .people__commentImg {
@@ -432,4 +433,20 @@
 }
 .emoji__choose svg {
   width: 25px;
+}
+
+.people__commentName {
+  font-size: 13px;
+}
+
+.people__commentData {
+  font-size: 12px;
+}
+
+.reaction {
+  font-size: 14px;
+}
+
+.emoji__choose svg {
+  width: 18px;
 }

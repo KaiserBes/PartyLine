@@ -23,7 +23,7 @@
 }
 
 .aboutus__pages__photo {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(47, 30, 30, 0.05);
   border-radius: 1rem 1rem 0 0;
   width: 206px;
   transition: all 0.3s ease 0s;
@@ -35,7 +35,28 @@
   width: 206px;
 }
 
-.aboutus__pages h2 {
+.aboutus__pages__video {
+  background-color: rgba(47, 30, 30, 0.05);
+  border-radius: 1rem 1rem 0 0;
+  width: 206px;
+  transition: all 0.3s ease 0s;
+}
+
+.aboutus__pages__video img {
+  width: 206px;
+  border-radius: 20px;
+}
+
+.aboutus__pages__video__text {
+  width: 206px;
+  background-color: rgba(47, 30, 30, 0.05);
+}
+
+.aboutus__pages__video__text p {
+  color: #fff;
+}
+
+.aboutus__pages__photo .aboutus__pages h2 {
   color: #fff;
   padding: 30px 0;
 }
@@ -55,4 +76,55 @@
 .page__text__videos {
   color: #fff;
   padding: 50px 0 30px 0;
+}
+
+.aboutus__pages__text {
+  color: white;
+}
+
+.secondClass {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.pages__video__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 0 50px 0;
+}
+
+@media (max-width: 1210px) {
+  .secondClass__video {
+    width: 33.3333%;
+  }
+}
+
+@media (max-width: 980px) {
+  .secondClass__video {
+    width: 50%;
+  }
+}
+
+@media (max-width: 745px) {
+  .secondClass__video {
+    width: 100%;
+  }
+}
+@media (max-width: 1210px) {
+  .secondClass {
+    width: 33.3333%;
+  }
+}
+
+@media (max-width: 980px) {
+  .secondClass {
+    width: 50%;
+  }
+}
+
+@media (max-width: 745px) {
+  .secondClass {
+    width: 100%;
+  }
 }

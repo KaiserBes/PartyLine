@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import s from "./Main.module.css";
-import { useNavigate } from "react-router-dom";
-import Loader from "../Loader/Loader";
 
 const Main = () => {
   return (
@@ -53,7 +51,7 @@ const Main = () => {
           <div className={s.aboutus__pages}>
             <h2>Pages</h2>
             <div className="row">
-              <div className="col-3">
+              <div className={`col-3 ${s.secondClass}`}>
                 <div className={s.aboutus__pages__photo}>
                   <img
                     src="https://images.console.xyz/cdn-cgi/image/width=206,height=206,fit=crop,quality=75,dpr=2/https://console-prod-static-back.s3.amazonaws.com/media/Web%201920%20%E2%80%93%207_.png"
@@ -64,7 +62,7 @@ const Main = () => {
                   <p>Welcome to Console.xyz</p>
                 </div>
               </div>
-              <div className="col-3">
+              <div className={`col-3 ${s.secondClass}`}>
                 <div className={s.aboutus__pages__photo}>
                   <img
                     src="https://images.console.xyz/cdn-cgi/image/width=206,height=206,fit=crop,quality=75,dpr=2/https://console-prod-static-back.s3.amazonaws.com/media/Web%201920%20%E2%80%93%207_.png"
@@ -75,7 +73,7 @@ const Main = () => {
                   <p>Welcome to Console.xyz</p>
                 </div>
               </div>
-              <div className="col-3">
+              <div className={`col-3 ${s.secondClass}`}>
                 <div className={s.aboutus__pages__photo}>
                   <img
                     src="https://images.console.xyz/cdn-cgi/image/width=206,height=206,fit=crop,quality=75,dpr=2/https://console-prod-static-back.s3.amazonaws.com/media/Web%201920%20%E2%80%93%207_.png"
@@ -86,7 +84,7 @@ const Main = () => {
                   <p>Welcome to Console.xyz</p>
                 </div>
               </div>
-              <div className="col-3">
+              <div className={`col-3 ${s.secondClass}`}>
                 <div className={s.aboutus__pages__photo}>
                   <img
                     src="https://images.console.xyz/cdn-cgi/image/width=206,height=206,fit=crop,quality=75,dpr=2/https://console-prod-static-back.s3.amazonaws.com/media/Web%201920%20%E2%80%93%207_.png"
@@ -97,7 +95,51 @@ const Main = () => {
                   <p>Welcome to Console.xyz</p>
                 </div>
               </div>
-              <div className="col-3">
+              <div className={`col-3 ${s.secondClass}`}>
+                <div className={s.aboutus__pages__photo}>
+                  <img
+                    src="https://images.console.xyz/cdn-cgi/image/width=206,height=206,fit=crop,quality=75,dpr=2/https://console-prod-static-back.s3.amazonaws.com/media/Web%201920%20%E2%80%93%207_.png"
+                    alt="Welcome to Console.xyz cover"
+                  ></img>
+                </div>
+                <div className={s.abotus__pages__text}>
+                  <p>Welcome to Console.xyz</p>
+                </div>
+              </div>
+              <div className={`col-3 ${s.secondClass}`}>
+                <div className={s.aboutus__pages__photo}>
+                  <img
+                    src="https://images.console.xyz/cdn-cgi/image/width=206,height=206,fit=crop,quality=75,dpr=2/https://console-prod-static-back.s3.amazonaws.com/media/Web%201920%20%E2%80%93%207_.png"
+                    alt="Welcome to Console.xyz cover"
+                  ></img>
+                </div>
+                <div className={s.abotus__pages__text}>
+                  <p>Welcome to Console.xyz</p>
+                </div>
+              </div>
+              <div className={`col-3 ${s.secondClass}`}>
+                <div className={s.aboutus__pages__photo}>
+                  <img
+                    src="https://images.console.xyz/cdn-cgi/image/width=206,height=206,fit=crop,quality=75,dpr=2/https://console-prod-static-back.s3.amazonaws.com/media/Web%201920%20%E2%80%93%207_.png"
+                    alt="Welcome to Console.xyz cover"
+                  ></img>
+                </div>
+                <div className={s.abotus__pages__text}>
+                  <p>Welcome to Console.xyz</p>
+                </div>
+              </div>
+              <div className={`col-3 ${s.secondClass}`}>
+                <div className={s.aboutus__pages__photo}>
+                  <img
+                    src="https://images.console.xyz/cdn-cgi/image/width=206,height=206,fit=crop,quality=75,dpr=2/https://console-prod-static-back.s3.amazonaws.com/media/Web%201920%20%E2%80%93%207_.png"
+                    alt="Welcome to Console.xyz cover"
+                  ></img>
+                </div>
+                <div className={s.abotus__pages__text}>
+                  <p>Welcome to Console.xyz</p>
+                </div>
+              </div>
+              <div className={`col-3 ${s.secondClass}`}>
                 <div className={s.aboutus__pages__photo}>
                   <img
                     src="https://images.console.xyz/cdn-cgi/image/width=206,height=206,fit=crop,quality=75,dpr=2/https://console-prod-static-back.s3.amazonaws.com/media/Web%201920%20%E2%80%93%207_.png"

@@ -140,7 +140,7 @@ const Sidebar = () => {
                   fill-opacity="0.96"
                 ></path>
               </svg>
-              <p>Direct Messages</p>
+              <p className={style.direct}>Direct Messages</p>
             </Link>
           </div>
         </div>
