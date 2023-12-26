@@ -137,7 +137,7 @@ const Pages = () => {
                     alt="Welcome to Console.xyz cover"
                   ></img>
                 </div>
-                <div className={s.aboutus__pages__video}>
+                <div className={s.aboutus__pages__video__text}>
                   <p>Welcome to Console.xyz</p>
                 </div>
               </div>
@@ -148,7 +148,7 @@ const Pages = () => {
                     alt="Welcome to Console.xyz cover"
                   ></img>
                 </div>
-                <div className={s.aboutus__pages__video}>
+                <div className={s.aboutus__pages__video__text}>
                   <p>Welcome to Console.xyz</p>
                 </div>
               </div>
@@ -159,7 +159,7 @@ const Pages = () => {
                     alt="Welcome to Console.xyz cover"
                   ></img>
                 </div>
-                <div className={s.aboutus__pages__video}>
+                <div className={s.aboutus__pages__video__text}>
                   <p>Welcome to Console.xyz</p>
                 </div>
               </div>
@@ -170,7 +170,7 @@ const Pages = () => {
                     alt="Welcome to Console.xyz cover"
                   ></img>
                 </div>
-                <div className={s.aboutus__pages__video}>
+                <div className={s.aboutus__pages__video__text}>
                   <p>Welcome to Console.xyz</p>
                 </div>
               </div>
@@ -181,7 +181,7 @@ const Pages = () => {
                     alt="Welcome to Console.xyz cover"
                   ></img>
                 </div>
-                <div className={s.aboutus__pages__video}>
+                <div className={s.aboutus__pages__video__text}>
                   <p>Welcome to Console.xyz</p>
                 </div>
               </div>

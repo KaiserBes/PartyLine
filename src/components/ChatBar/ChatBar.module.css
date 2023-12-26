@@ -61,3 +61,13 @@
   margin-left: 30px;
   font-weight: bold;
 }
+
+@media (max-width: 880px) {
+  .chat__wrap {
+    width: 150px;
+  }
+  .link p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

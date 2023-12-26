@@ -24,7 +24,7 @@
 }
 
 .chat h2 {
-  color: whit;
+  color: white;
   display: flex;
   font-size: 14px;
 }
@@ -307,4 +307,10 @@
 
 .direct__footer {
   margin: 0px 0 -100px 0;
+}
+
+@media (max-width: 880px) {
+  .content__wrap {
+    width: 230px;
+  }
 }

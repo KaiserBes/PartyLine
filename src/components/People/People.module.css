@@ -122,8 +122,6 @@
   gap: 30px;
 }
 
-
-
 .output__items {
   padding: 30px;
   background-color: rgb(167, 167, 167);
@@ -139,8 +137,8 @@
   width: 160px;
 }
 .output__items p {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .output__container {
   width: 95%;
@@ -149,4 +147,16 @@
 
 .sidebar {
   width: 300px;
+}
+
+@media (max-width: 880px) {
+  .avatar {
+    margin-left: 50px;
+  }
+  .output__container {
+    margin-left: 30px;
+  }
+  .name__profile {
+    display: none;
+  }
 }

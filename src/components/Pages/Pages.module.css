@@ -23,7 +23,7 @@
 }
 
 .aboutus__pages__photo {
-  background-color: rgba(47, 30, 30, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
   border-radius: 1rem 1rem 0 0;
   width: 206px;
   transition: all 0.3s ease 0s;
@@ -38,25 +38,28 @@
 .aboutus__pages__video {
   background-color: rgba(47, 30, 30, 0.05);
   border-radius: 1rem 1rem 0 0;
+  background-color: rgba(255, 255, 255, 0.05);
   width: 206px;
-  transition: all 0.3s ease 0s;
 }
 
 .aboutus__pages__video img {
   width: 206px;
   border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .aboutus__pages__video__text {
   width: 206px;
-  background-color: rgba(47, 30, 30, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px 15px;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .aboutus__pages__video__text p {
   color: #fff;
 }
 
-.aboutus__pages__photo .aboutus__pages h2 {
+.aboutus__pages h2 {
   color: #fff;
   padding: 30px 0;
 }
