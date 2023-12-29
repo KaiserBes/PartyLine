@@ -23,7 +23,7 @@ const Header = () => {
                 Pages
               </NavLink>
             </li>
-            <li>
+            <li className={s.header__people}>
               <NavLink
                 className={`${s.navlink} ${s.navlink__people}`}
                 to="/people"

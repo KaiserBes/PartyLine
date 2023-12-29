@@ -11,8 +11,9 @@
 .chat {
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 260px;
   padding: 30px 15px 30px 20px;
+  display: flex;
 }
 
 .general {
@@ -308,7 +309,7 @@
 
 @media (max-width: 880px) {
   .content__wrap {
-    width: 230px;
+    width: 260px;
   }
 }
 
@@ -321,6 +322,7 @@
   }
   .chat {
     display: flex;
+    width: 100%;
   }
   .footer {
     position: fixed;

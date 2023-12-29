@@ -80,6 +80,9 @@ header {
   .name__profile {
     display: none;
   }
+  .header__people {
+    margin: 2px 0 0 0;
+  }
 }
 
 .foot {
