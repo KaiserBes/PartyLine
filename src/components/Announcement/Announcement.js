@@ -1,9 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./Announcement.module.css";
 import ChatSIdebar from "../ChatSidebar/ChatSidebar";
 import ChatBar from "../ChatBar/ChatBar";
+import Footer from '../Footer/Footer'
 
 const Announcement = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
   return (
     <div className={style.main__wrap}>
       <ChatSIdebar />
@@ -11,6 +17,20 @@ const Announcement = () => {
       <div className={style.content__wrap}>
         <div className={style.general}>
           <div className={style.header}>
+          <div className={`${style.general__burger} ${isMenuOpen ? style.open : ''}`} onClick={toggleMenu}>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div className={`${style.menu} ${isMenuOpen ? style.open : ''}`} id={style.menu}>
+                <h4>Channels</h4>
+                <a className={style.update__link} href="/updates">@ Updates</a>
+                <p>Community</p>
+                <a href="/general">🏠 general</a>
+                <a href="/announcements">😘 annoncements</a>
+                <a href="/letsvote">🗳️ Let's Vote</a>
+                <p>Private</p>
+              </div>
             <div className={style.header__p}>
               <p>#anouncements</p>
             </div>
@@ -186,6 +206,7 @@ const Announcement = () => {
 
           <div className={style.chat__footer}></div>
         </div>
+        <Footer/>
       </div>
     </div>
   );

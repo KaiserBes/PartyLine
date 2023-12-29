@@ -1,16 +1,19 @@
 import React from "react";
 import ChatSidebar from "../ChatSidebar/ChatSidebar";
 import style from "./DirectMessanges.module.css";
+import Footer from "../Footer/Footer";
 
 const DirectMessages = () => {
   return (
     <div className={style.main__wrap}>
       <ChatSidebar />
+
       <div className={style.content__wrap}>
         <div className={style.chat}>
           <h2>Direct messages</h2>
           <button>+</button>
         </div>
+
         <div className={style.general}>
           <ul className={style.message__wrapper}>
             <li className={style.message__content}>
@@ -33,10 +36,15 @@ const DirectMessages = () => {
             </li>
           </ul>
         </div>
+        <div className={style.footer}>
+          <Footer />
+        </div>
       </div>
+
       <div className={style.message__grayline}>
         <div className={style.messages__grayline}></div>
       </div>
+
       <div className={style.conversation}>
         <header className={style.message__header}>
           <div className={style.header__container}>
@@ -188,7 +196,6 @@ const DirectMessages = () => {
             </div>
           </div>
         </div>
-        <footer className={style.direct__footer}></footer>
       </div>
     </div>
   );

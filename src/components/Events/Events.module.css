@@ -151,3 +151,16 @@
   background-color: #fff;
   transition: all 4s ease 0s;
 }
+
+@media (max-width: 720px) {
+  .sidebar {
+    display: none;
+  }
+  .main__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .events {
+    height: calc(100vh - 220px);
+  }
+}

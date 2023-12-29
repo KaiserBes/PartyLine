@@ -23,6 +23,14 @@ const Header = () => {
                 Pages
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                className={`${s.navlink} ${s.navlink__people}`}
+                to="/people"
+              >
+                People
+              </NavLink>
+            </li>
           </ul>
 
           <div className={s.avatar}>

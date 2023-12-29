@@ -16,6 +16,7 @@ import Announcement from "./components/Announcement/Announcement";
 import Updates from "./components/Updates/Updates";
 import Letsvote from "./components/LetsVote/Letsvote";
 import General from "./components/General/General";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -32,7 +33,6 @@ const App = () => {
             <Route path="/people" element={<People />} />
             <Route path="/direct" element={<DirectMessanges />} />
             <Route path="/announcements" element={<Announcement />} />
-
             <Route path="/updates" element={<Updates />} />
             <Route path="/letsvote" element={<Letsvote />} />
           </Routes>

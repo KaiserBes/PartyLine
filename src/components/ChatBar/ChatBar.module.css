@@ -71,3 +71,9 @@
     text-overflow: ellipsis;
   }
 }
+
+@media (max-width: 720px) {
+  .chat__wrap {
+    display: none;
+  }
+}

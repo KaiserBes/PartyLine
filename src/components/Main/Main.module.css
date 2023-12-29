@@ -8,6 +8,11 @@
   height: calc(100vh - 110px);
 }
 
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
 .main {
   background-color: rgb(22, 22, 22);
   align-items: center;
@@ -39,7 +44,9 @@
 .main__box p {
   font-size: 0.875rem;
 }
-
+.col {
+  padding: 0 152px;
+}
 .main__grayline {
   width: 100%;
   height: 0.0625rem;
@@ -72,7 +79,6 @@
 
 .aboutus {
   background-color: rgb(22, 22, 22);
-  padding: 0 0 45px 0;
 }
 
 .abotus__box__first {
@@ -148,5 +154,28 @@
 @media (max-width: 745px) {
   .secondClass {
     width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    height: calc(100vh - 220px);
+  }
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .abotus__pages__text,
+  .aboutus__pages__photo,
+  .aboutus__pages__photo img {
+    width: 100%;
+  }
+  .aboutus__pages__photo {
+    height: 206px;
+  }
+  .aboutus__pages__photo img {
+    height: auto;
   }
 }

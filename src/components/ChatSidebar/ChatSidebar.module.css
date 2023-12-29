@@ -101,3 +101,9 @@
 .Link svg {
   color: rgb(179, 0, 255);
 }
+
+@media (max-width: 720px) {
+  .app {
+    display: none;
+  }
+}

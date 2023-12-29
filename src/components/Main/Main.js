@@ -5,9 +5,9 @@ const Main = () => {
   return (
     <div className={s.wrapper}>
       <main className={s.main}>
-        <div className="container">
+        <div className={s.container}>
           <div className="row">
-            <div className={s.col - 6}>
+            <div className={s.col__main}>
               <div className={s.main__box__picture}>
                 <img
                   alt="avatar"
@@ -16,7 +16,7 @@ const Main = () => {
                 ></img>
               </div>
             </div>
-            <div className={s.col - 6}>
+            <div className={s.col__main}>
               <div className={s.main__box}>
                 <h1>Party Line</h1>
                 <p>
@@ -33,7 +33,7 @@ const Main = () => {
         </div>
       </main>
       <section className={s.aboutus}>
-        <div className="container">
+        <div className={s.container}>
           <div className="row">
             <div className="col-6">
               <div className={s.abotus__box__first}>

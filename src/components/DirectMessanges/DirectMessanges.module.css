@@ -1,7 +1,7 @@
 .main__wrap {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .content__wrap {
@@ -9,18 +9,15 @@
 }
 
 .chat {
-  margin: 2rem;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  padding: 30px 15px 30px 20px;
 }
 
 .general {
   width: 100%;
-}
-
-.chat {
-  width: 250px;
-  display: flex;
+  flex: 1;
 }
 
 .chat h2 {
@@ -312,5 +309,22 @@
 @media (max-width: 880px) {
   .content__wrap {
     width: 230px;
+  }
+}
+
+@media (max-width: 720px) {
+  .conversation {
+    display: none;
+  }
+  .content__wrap {
+    width: 100%;
+  }
+  .chat {
+    display: flex;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }

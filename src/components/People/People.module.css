@@ -9,6 +9,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+
 .header__wrap {
   display: flex;
   padding: 12px 14px;
@@ -20,17 +21,17 @@
   margin-left: 30px;
   color: white;
   padding: 10px;
-  transition: border 0.3s ease; /* только изменения border будут иметь анимацию */
+  transition: border 0.3s ease;
   display: flex;
   gap: 5px;
-  border: 1px solid transparent; /* начальная прозрачная граница */
+  border: 1px solid transparent;
   margin-right: 10px;
   border-radius: 10px;
-  box-sizing: border-box; /* учтем границы и отступы в размерах элемента */
+  box-sizing: border-box;
 }
 
 .search:hover {
-  border-color: white; /* изменение цвета при ховере */
+  border-color: white;
 }
 
 .search__icon {
@@ -149,6 +150,10 @@
   width: 300px;
 }
 
+.mainHeader {
+  display: none;
+}
+
 @media (max-width: 880px) {
   .avatar {
     margin-left: 50px;
@@ -158,5 +163,49 @@
   }
   .name__profile {
     display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .sidebar {
+    display: none;
+  }
+  .output {
+    height: calc(100vh - 185px);
+  }
+  .avatar {
+    display: none;
+  }
+  .main__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainHeader {
+    display: block;
+  }
+  .output {
+    height: calc(100vh - 295px);
+  }
+  .search {
+    margin: 0;
+  }
+  .filter {
+    display: none;
+  }
+}
+
+@media (max-width: 340px) {
+  .header {
+    padding: 0;
+  }
+  .header__filter {
+    padding: 0;
+  }
+}
+
+@media (max-width:720px) {
+  .output__container {
+    width: 50%;
+    margin: 0 auto;
   }
 }

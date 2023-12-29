@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./Updates.module.css";
 import ChatSidebar from "../ChatSidebar/ChatSidebar";
 import ChatBar from "../ChatBar/ChatBar";
+import Footer from "../Footer/Footer";
 
 const Updates = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
   return (
     <div className={style.main__wrap}>
       <div className={style.sidebar}>
@@ -12,6 +18,30 @@ const Updates = () => {
       </div>
       <div className={style.update__wrap}>
         <div className={style.header__wrap}>
+          <div
+            className={`${style.general__burger} ${
+              isMenuOpen ? style.open : ""
+            }`}
+            onClick={toggleMenu}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div
+            className={`${style.menu} ${isMenuOpen ? style.open : ""}`}
+            id={style.menu}
+          >
+            <h4>Channels</h4>
+            <a className={style.update__link} href="/updates">
+              @ Updates
+            </a>
+            <p>Community</p>
+            <a href="/general">🏠 general</a>
+            <a href="/announcements">😘 annoncements</a>
+            <a href="/letsvote">🗳️ Let's Vote</a>
+            <p>Private</p>
+          </div>
           <div className={style.header__p}>Updates</div>
           <div className={style.header}>
             <div className={style.avatar}>
@@ -47,6 +77,7 @@ const Updates = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

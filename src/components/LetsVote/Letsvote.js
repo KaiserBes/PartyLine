@@ -1,9 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "./LetsVote.module.css";
 import ChatSidebar from "../ChatSidebar/ChatSidebar";
 import ChatBar from "../ChatBar/ChatBar";
+import Footer from '../Footer/Footer'
 
 const LetsVote = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
   return (
     <div className={style.main__wrap}>
       <div className={style.sidebar}>
@@ -12,6 +18,20 @@ const LetsVote = () => {
       </div>
       <div className={style.vote__wrap}>
         <div className={style.header}>
+        <div className={`${style.general__burger} ${isMenuOpen ? style.open : ''}`} onClick={toggleMenu}>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div className={`${style.menu} ${isMenuOpen ? style.open : ''}`} id={style.menu}>
+                <h4>Channels</h4>
+                <a className={style.update__link} href="/updates">@ Updates</a>
+                <p>Community</p>
+                <a href="/general">🏠 general</a>
+                <a href="/announcements">😘 annoncements</a>
+                <a href="/letsvote">🗳️ Let's Vote</a>
+                <p>Private</p>
+              </div>
           <div className={style.header__p}>
             <p>#let's vote</p>
           </div>
@@ -221,6 +241,7 @@ const LetsVote = () => {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     </div>
   );

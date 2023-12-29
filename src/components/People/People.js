@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import style from "./People.module.css";
 import Sidebar from "../Sidebar/Sidebar";
-
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 const People = () => {
   const [searchQuery, setSearchQuery] = useState(""); // Состояние для отслеживания запроса
 
@@ -27,6 +28,9 @@ const People = () => {
     <div className={style.main__wrap}>
       <div className={style.sidebar}>
         <Sidebar />
+      </div>
+      <div className={style.mainHeader}>
+        <Header />
       </div>
       <div className={style.title__wrap}>
         <div className={style.header}>
@@ -74,7 +78,7 @@ const People = () => {
                     ></path>
                   </svg>
                 </div>
-                filter
+                <div className={style.filter}>filter</div>
               </div>
             </div>
             <div className={style.avatar}>
@@ -208,6 +212,7 @@ const People = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );

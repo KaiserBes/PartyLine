@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import s from "./Pages.module.css"; // Импорт стилей
 import Sidebar from "../Sidebar/Sidebar";
+import Footer from '../Footer/Footer'
 
 const Pages = () => {
   return (
@@ -15,7 +16,7 @@ const Pages = () => {
           <div className="container">
             <div className={s.aboutus__pages}>
               <h2>Pages</h2>
-              <div className="row">
+              <div className={s.row}>
                 <div className={s.secondClass}>
                   <div className={s.aboutus__pages__photo}>
                     <img
@@ -188,6 +189,7 @@ const Pages = () => {
             </div>
           </div>
         </section>
+        <Footer/>
       </div>
     </div>
   );

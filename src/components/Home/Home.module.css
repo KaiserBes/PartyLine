@@ -1,13 +1,19 @@
 .wrap {
-    display: flex;
+  display: flex;
 }
 
 .items {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .sidebar {
-    width: 300px;
+  width: 300px;
+}
+
+@media (max-width: 720px) {
+  .sidebar {
+    display: none;
+  }
 }

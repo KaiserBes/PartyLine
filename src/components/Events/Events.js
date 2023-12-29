@@ -3,9 +3,11 @@ import Header from "../Header/Header";
 import s from "./Events.module.css";
 import { Link } from "react-router-dom";
 import Sidebar from "../Sidebar/Sidebar";
+import Footer from '../Footer/Footer'
 
 const Events = () => {
   return (
+    
     <div className={s.main__wrap}>
       <div className={s.sidebar}>
         <Sidebar />
@@ -76,6 +78,7 @@ const Events = () => {
           </div>
         </section>
       </div>
+      <Footer/>
     </div>
   );
 };

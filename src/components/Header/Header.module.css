@@ -19,7 +19,6 @@ header {
   display: flex;
   align-items: center;
   column-gap: 15px;
-  list-style: none;
 }
 
 .navlink {
@@ -68,4 +67,21 @@ header {
 
 .name__profile:hover {
   background-color: rgba(82, 82, 82, 0.72);
+}
+
+.navlink__people {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .navlink__people {
+    display: block;
+  }
+  .name__profile {
+    display: none;
+  }
+}
+
+.foot {
+  display: none;
 }
