@@ -9,7 +9,6 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-
 .header__wrap {
   display: flex;
   padding: 12px 14px;
@@ -192,6 +191,9 @@
   .filter {
     display: none;
   }
+  .row {
+    padding: 20px 0 0 0;
+  }
 }
 
 @media (max-width: 340px) {
@@ -203,7 +205,7 @@
   }
 }
 
-@media (max-width:720px) {
+@media (max-width: 720px) {
   .output__container {
     width: 50%;
     margin: 0 auto;
